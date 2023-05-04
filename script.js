@@ -20,7 +20,7 @@ function checkTimeQuantumInput() {
         timequantum.add("hide");
     }
 }
-// to check the priority, if the process is preemptive or non preemptive
+// to check the priority, if the process is preemptive or non preemptiv
 function checkPriorityCell() {
     let prioritycell = document.querySelectorAll(".priority");
     if (selectedAlgorithm.value == "pnp" || selectedAlgorithm.value == "pp") {
