@@ -90,7 +90,7 @@ function lcmAll() {
     return result;
 }
 //to update the process or the burst time of the process
-function updateColspan() { //update burst time cell colspan
+function updateColspan() { //update burst time cell colspans
     let totalColumns = lcmAll();
     let processHeading = document.querySelector("thead .process-time");
     processHeading.setAttribute("colspan", totalColumns);
